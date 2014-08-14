@@ -272,25 +272,7 @@ display:block;
 #ads-top {
 	float: right;
 }
-.social {
-	float: right;
-	width: 100px;
-	margin: 4px 0 0 10px;
-}
-.social img {
-	float: left;
-	margin: 0 2px 0 2px;
-	width: 20px;
-	height: 20px;
-	-webkit-transition: opacity .1s ease .2s;
-	-moz-transition: opacity .1s ease .2s;
-	-o-transition: opacity .1s ease .2s;
-	-ms-transition: opacity .1s ease .2s;
-	transition: opacity .1s ease .2s;
-}
-.social img:hover {
-	opacity: 0.8;
-}
+
 
 .fullpricelist {
 float:right;	
@@ -550,86 +532,6 @@ font-family: 'Source Sans Pro', sans-serif;
 	width: 37%;
 }
 
-.page_body_right img{
-	margin:0 0 13px 0;
-}
-.breadcrumb {
-	font-size: 10px;
-}
-.press-description {
-	float: left;
-	width: 47.682119%;
-}
-.press-product-image {
-	float: left;
-	width: 49.668874%;
-	margin: 0 0 0 15px;
-}
-.right-sidebar .block h2, .miniexhibitions .block h2 {
-	margin: 15px 0 8px 0;
-	padding: 10px 0px 10px 10px;
-	position: relative;
-	font-size: 13px;
-	border-bottom: 1px #efefef solid;
-	background: url(../images/arrow-02-active.png) no-repeat left;
-}
-.label-inline {
-	display: inline;
-}
-.view-mode-highlighted_exhibition {
-	position: relative;
-	display: block;
-	clear: both;
-	height: 450px;
-	margin: 1px 0 15px 0;
-	-moz-box-shadow: 0px 5px 8px #898989;
-	-webkit-box-shadow: 0px 5px 8px #898989;
-	box-shadow: 0px 5px 8px #898989;
-}
-.overlay_image {
-	position: absolute;
-	top: 0px;
-}
-.info_overlay {
-	position: absolute;
-	bottom: 0px;
-	background: #09C;
-	height: 50px;
-	width: 710px;
-	z-index: 100;
-	padding: 15px 10px 10px 20px;
-	border-top: 1px #999999 solid;
-
-	background: -moz-linear-gradient(top, rgba(0,104,181,0.77) 0%, rgba(0,93,160,0.81) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,104,181,0.77)), color-stop(100%, rgba(0,93,160,0.81))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(0,104,181,0.77) 0%, rgba(0,93,160,0.81) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, rgba(0,104,181,0.77) 0%, rgba(0,93,160,0.81) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, rgba(0,104,181,0.77) 0%, rgba(0,93,160,0.81) 100%); /* IE10+ */
-	background: linear-gradient(to bottom, rgba(0,104,181,0.77) 0%, rgba(0,93,160,0.81) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c40068b5', endColorstr='#e8005da0', GradientType=0 ); /* IE6-9 */
-	color: white;
-}
-.info_overlay h2 a {
-	color: white;
-	font-size: 20px;
-	margin: 0 0 8px 0;
-}
-.pressbox a {
-	font-size: 10px;
-}
-.eventteaser_cat {
-	text-transform: uppercase;
-	font-size: 9px;
-}
-.related-program {
-	margin: 0 0 8px 0;
-}
-.eventteaser_loc {
-	font-size: 10px;
-}
-.eventteaser_date {
-	font-size: 10px;
-}
 /*-------------------------------------------------*/
 /* =  Module 1 - Main Post with other posts
 /*-------------------------------------------------*/
@@ -640,10 +542,6 @@ border-top: 1px solid #e8e8e8;
 padding:2em 0 0 0;
 margin:0 0 1em 0;
 }
-
-
-
-
 
 .main-post {
 	float: left;
