@@ -852,26 +852,37 @@ color:#c33!important;
  
 
 .waystostart .collapsible .field-group-format-toggler, .ctools-collapsible-processed .ctools-toggle {
-	background: url(../images/arrow-up.png) no-repeat;
+	background: url(../images/arrow-down.png) no-repeat;
 	
 }
 .waystostart .collapsed .field-group-format-toggler, .ctools-collapsed .ctools-toggle {
-	background: url(../images/arrow-down.png) no-repeat;
+	background: url(../images/arrow-side.png) no-repeat;
 }
 
+.vocabulary-ways-to-start {
+	cursor:pointer;
+	img {display:block; margin-left:auto; margin-right:auto;
+		@include opacity(1);
+    @include transition-property(opacity);
+    @include transition-duration(0.3s);
+    @include transition-timing-function(linear);
+	}
+	h3 {text-align:center;}
+ 	&:hover{
+img{    @include opacity(.7);}
+  }
+}
 
-
+.waystostart_title h3 { color: #c33333;}
  .ctools-collapsible-processed .ctools-toggle {
-	background: url(../images/arrow-up.png) no-repeat;
+	background: url(../images/arrow-down.png) no-repeat;
 	background-position:0 .5em;
 	
 }
  .ctools-collapsed .ctools-toggle {
-	background: url(../images/arrow-down.png) no-repeat;
+	background: url(../images/arrow-side.png) no-repeat;
 	background-position:0 .5em;
 }
-
-
 
 .ctools-collapsible-container {
 	border: #e8e8e8 1px solid;
@@ -906,7 +917,6 @@ img.file-icon {
 .download-file a{
 	font-size:10px;
 }
-
 
 .indesign .label-above {
 	background: url('../images/indesign.png') no-repeat;
