@@ -1,0 +1,13 @@
+.teaser {
+	width:100%;
+}
+
+.teaser .teaser_left {
+	float:left;
+	width:120px;
+}
+
+.teaser .teaser_right {
+	float:left;
+	width:80%;
+}

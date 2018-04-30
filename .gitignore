@@ -1,1 +1,10 @@
-.sass-cache
+.sass-cachenfiguration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+cache/
+prolabftp/
+drupal/
+cgi-bin/
